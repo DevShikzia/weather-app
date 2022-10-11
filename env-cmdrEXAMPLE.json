@@ -1,0 +1,9 @@
+{
+    "LOCAL": {
+        "REACT_APP_RAPIDAPI_KEY": "",
+        "REACT_APP_RAPIDAPI_HOST": "",
+        "REACT_APP_GEO_API_URL": "",
+        "REACT_APP_WEATHER_KEY": "",
+        "REACT_APP_WEATHER_URL": ""
+    }
+}

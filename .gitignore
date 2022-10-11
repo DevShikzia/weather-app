@@ -10,6 +10,7 @@
 
 # production
 /build
+/.env-cmdrc.json
 
 # misc
 .DS_Store
