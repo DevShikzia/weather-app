@@ -31,6 +31,7 @@ const Search = ({ onSearchChange }) => {
   };
 
   return (
+    <div className="size">
     <AsyncPaginate
       placeholder="Buscar por ciudad..."
       debounceTimeout={600}
@@ -38,6 +39,7 @@ const Search = ({ onSearchChange }) => {
       onChange={handleOnChange}
       loadOptions={loadOptions}
     />
+    </div>
   );
 };
 
