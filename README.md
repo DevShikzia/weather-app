@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# Weather App ☀️🌥️🌧️
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Weather app es una aplicacion web desarrollada para saber el clima actual y el de los proximos 7 dias, intetalo desde cualquier lugar solo necesitas colocar tu pais o estado en el buscador 🌍
 
-## Available Scripts
+![Image](https://i.ibb.co/vq51Gtd/Captura.png)
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📡 Projecto en vivo
+ poder ver la app visitando el siguiente enlace:
+ ### 👉👉 https://weather-app-shikzia.vercel.app/
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🖥️ Stacks de tecnologías aplicadas:
 
-### `npm test`
+Algunas de las tecnologias son:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[![react](https://img.shields.io/badge/React-0077B5?style=for-the-badge&logo=react&logoColor=white)](https://es.reactjs.org/)
+[![javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://www.javascript.com/)
+[![nodejs](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/es/)
+[![CSS3](https://img.shields.io/badge/css-005F91?style=for-the-badge&logo=CSS3&logoColor=white)](https://lenguajecss.com/css/introduccion/que-es-css/)
 
-### `npm run build`
+Estas son las api que se usaron para traer datos:
+- https://rapidapi.com/wirefreethought/api/geodb-cities/
+- https://openweathermap.org/
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚩 Para ver la web localmente sigue estos pasos:
 
-### `npm run eject`
+Clonar el proyecto
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+  git clone https://github.com/DevShikzia/weather-app.git
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Entrar en la carpeta del proyecto
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+  cd weather-app
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Instalar las dependencias
 
-## Learn More
+```bash
+  npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Editar el archivo .env-cmrdc y llenarlo con los datos con las api antes mencionadas
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+     "LOCAL": {
+        "REACT_APP_GEO_API_URL":   " ",
+        "REACT_APP_WEATHER_KEY":   " ",
+        "REACT_APP_WEATHER_URL":   " ",
+        "REACT_APP_RAPIDAPI_KEY":  " ",
+        "REACT_APP_RAPIDAPI_HOST": " "
+    }
+```
 
-### Code Splitting
+Levantar el proyecto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+  npm run local
+```
+### 😎 Todo listo para que veas el proyecto en tu localhost:3000 😎
 
-### Analyzing the Bundle Size
+## 📧 Contacto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Sigueme en una de mis redes o contacta conmigo por alguna de ellas :D
 
-### Making a Progressive Web App
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sanchez-matias/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/DevShikzia)
+[![instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/__matt.s__/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### 🤝 Agradecimientos 
 
-### Advanced Configuration
+- https://www.youtube.com/watch?v=Reny0cTTv24
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
