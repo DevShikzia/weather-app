@@ -198,3 +198,30 @@
   color: black;
   margin-bottom: 20px;
 }
+
+/* Footer */
+.footer{
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: white;
+}
+
+.footer nav ul{
+display: flex;
+justify-content: center;
+margin: 15px;
+}
+.footer nav ul li{
+
+margin-right: 25px;
+}
+.footer nav ul li:last-child{
+
+margin-right: 0px;
+}
+
+.footer nav ul li a{
+color: white;
+font-size: 2em;
+}

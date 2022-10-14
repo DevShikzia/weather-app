@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import CurrentWeather from "./components/CurrentWeather";
+import Footer from "./components/Footer";
 import Forecast from "./components/Forecast";
 import Search from "./components/Search";
 
@@ -30,11 +31,14 @@ function App() {
   };
 
   return (
+    <>
     <div className="main-container">
       <Search onSearchChange={handleOnSearchChange}/>
       {currentWeather && <CurrentWeather data={currentWeather} />}
       {forecast && <Forecast  data={forecast}/>}
     </div>
+      <Footer/>
+      </>
   );
 }
 
